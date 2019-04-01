@@ -28,3 +28,37 @@ header .logo {
 nav {
     padding-right: 40px;
 }
+
+/* Main Content */
+
+.main-content {
+    display: flex;
+    width: 1300px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 80px;
+    padding-top: 110px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;    
+}
+
+.column.large {
+    width: 630px;
+}
+
+.column.medium {
+    width: 300px;
+}
+
+.column.small {
+    width: 240px;
+}
+
+div {
+    border: 1px solid black;
+}
