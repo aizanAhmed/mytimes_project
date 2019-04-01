@@ -7,6 +7,7 @@ header {
     position: fixed;
     align-items: center;
     z-index: 1;
+    background-color: white;
     font-family: Verdana;
     font-size: 14px;
     font-weight: bold;
@@ -47,18 +48,99 @@ nav {
     margin-right: 30px;    
 }
 
+                        /* Image-Text */
+
+.image-text {
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    height: 300px;
+}
+
+.lead-story .image-text {
+    font-size: 40px;
+}
+
+.story .image-text {
+    text-align: center;
+}
+
+.narrative {
+    font-family: Georgia;
+    font-size: 17px;
+    color: black;
+}
+
+                        /* Story */
+
+.story {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+/* Coulmn Large */
+
 .column.large {
     width: 630px;
 }
+
+.lead-story .image-text {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png)
+}
+
+.earth-spins.image-text {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png)
+}
+
+.earth-spins.image-text {
+    margin-top: 80px;
+}
+
+.research-shows.image-text {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png)
+}
+
+.research-shows.image-text {
+    margin-top: 80px;
+}
+
+.stories {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+/* Column Medium */
 
 .column.medium {
     width: 300px;
 }
 
+.cats-control.image-text {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png)
+}
+
+/* Column Small */
+
 .column.small {
     width: 240px;
 }
 
-div {
-    border: 1px solid black;
+.news-bites .title {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.bites {
+    display: block;
+    padding: 15px 25px;
+    background-color: whitesmoke;
+    font-family: Verdana;
+    font-size: 12px;
+    color: dimgray;
+    border-bottom: 1px solid black;
 }
